@@ -1,6 +1,6 @@
 # Project: Intentional Command Injection Lab & Remediation
 
-### Author: \[Your Name\]
+### Author: Hariom M G
 
 ## Category: Web Application Security / Pentesting
 
